@@ -2,5 +2,5 @@
 {
   void RegisterObserver(IObserver o);
   void UnregisterObserver(IObserver o);
-  void NotifyObserver();
+  void NotifyObservers();
 }
