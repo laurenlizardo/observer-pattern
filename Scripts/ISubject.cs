@@ -1,6 +1,6 @@
-﻿public interface ISubject<T> where T : class
+﻿public interface ISubject
 {
-  void Register(T o);
-  void Unregister(T o);
-  void Notify();
+  void RegisterObserver(IObserver o);
+  void UnregisterObserver(IObserver o);
+  void NotifyObserver();
 }
