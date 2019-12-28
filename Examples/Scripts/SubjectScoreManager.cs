@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreSubject : MonoBehaviour, ISubject
+public class SubjectScoreManager : MonoBehaviour, ISubject
 {
-  private static ScoreSubject _instance;
-  public static ScoreSubject Instance => _instance;
+  private static SubjectScoreManager _instance;
+  public static SubjectScoreManager Instance => _instance;
 
   public int Score;
 
