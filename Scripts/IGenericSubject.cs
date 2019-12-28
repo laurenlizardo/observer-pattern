@@ -1,6 +1,6 @@
 public interface IGenericSubject<T> where T : class
 {
-  void RegisterObserver();
-  void UnregisterObserver();
+  void RegisterObserver(T o);
+  void UnregisterObserver(T o);
   void NotifyObservers();
 }
